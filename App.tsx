@@ -6,7 +6,9 @@ import {PaperProvider} from 'react-native-paper';
 import Ioicon from 'react-native-vector-icons/Ionicons';
 import {BoxObjectModelScreen} from './src/presentation/screens/BoxObjectModelScreen';
 import {DimesionScreen} from './src/presentation/screens/DimesionScreen';
-import { PositionScreen } from './src/presentation/screens/PositionScreen';
+import {PositionScreen} from './src/presentation/screens/PositionScreen';
+import {FlexScreen} from './src/presentation/screens/FlexScreen';
+import { FlexDirectionScreen } from './src/presentation/screens/FlexDirectionScreen';
 export const App = () => {
   return (
     <PaperProvider
@@ -19,7 +21,9 @@ export const App = () => {
         {/* <CounterM3Screen /> */}
         {/* <BoxObjectModelScreen /> */}
         {/* <DimesionScreen /> */}
-        <PositionScreen/>
+        {/* <PositionScreen/> */}
+        {/* <FlexScreen /> */}
+        <FlexDirectionScreen/>
       </SafeAreaView>
     </PaperProvider>
   );
