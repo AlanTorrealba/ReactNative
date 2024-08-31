@@ -8,7 +8,15 @@ import {BoxObjectModelScreen} from './src/presentation/screens/BoxObjectModelScr
 import {DimesionScreen} from './src/presentation/screens/DimesionScreen';
 import {PositionScreen} from './src/presentation/screens/PositionScreen';
 import {FlexScreen} from './src/presentation/screens/FlexScreen';
-import { FlexDirectionScreen } from './src/presentation/screens/FlexDirectionScreen';
+import {FlexDirectionScreen} from './src/presentation/screens/FlexDirectionScreen';
+import {FlexScreenTarea2} from './src/presentation/screens/FlexScreenTarea2';
+import {FlexScreenTarea3} from './src/presentation/screens/FlexScreenTarea3';
+import {FlexScreenTarea4} from './src/presentation/screens/FlexScreenTarea4';
+import {FlexScreenTarea5} from './src/presentation/screens/FlexScreenTarea5';
+import {FlexScreenTarea6} from './src/presentation/screens/FlexScreenTarea6';
+import {FlexScreenTarea8} from './src/presentation/screens/FlexScreenTarea8';
+import {FlexScreenTarea9} from './src/presentation/screens/FlexScreenTarea9';
+import {FlexScreenTarea10} from './src/presentation/screens/FlexScreenTarea10';
 export const App = () => {
   return (
     <PaperProvider
@@ -23,7 +31,17 @@ export const App = () => {
         {/* <DimesionScreen /> */}
         {/* <PositionScreen/> */}
         {/* <FlexScreen /> */}
-        <FlexDirectionScreen/>
+        {/* <FlexDirectionScreen/> */}
+        {/* <FlexScreenTarea1/> */}
+        {/* <FlexScreenTarea2 /> */}
+        <FlexScreenTarea3 />
+        {/* <FlexScreenTarea4 /> */}
+        {/* <FlexScreenTarea5 /> */}
+        {/* <FlexScreenTarea6 /> */}
+        {/* <FlexScreenTarea7 /> */}
+        {/* <FlexScreenTarea8 /> */}
+        {/* <FlexScreenTarea9 /> */}
+        {/* <FlexScreenTarea10 /> */}
       </SafeAreaView>
     </PaperProvider>
   );
